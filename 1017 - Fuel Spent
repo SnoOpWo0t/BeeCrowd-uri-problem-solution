@@ -1,0 +1,14 @@
+import java.util.Scanner;
+//by_akhi
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+     //   int x = 60,y = 90;
+       double n = scanner.nextDouble();
+        double m = scanner.nextDouble();
+        double k = (n*m)/12;
+        System.out.printf("%.3f\n",k);
+     //  System.out.println(k);
+
+    }
+}
