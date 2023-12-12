@@ -1,0 +1,5 @@
+name = input()
+fs = float(input())
+pd = float(input())
+totalsal = fs +(pd*.15)
+print(f'TOTAL = R$ {totalsal:.2f}')
