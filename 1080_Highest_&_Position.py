@@ -1,10 +1,8 @@
-def find_divisors(n):
-    divisors = []
+def print_divisors(n):
     for i in range(1, n + 1):
         if n % i == 0:
-            divisors.append(i)
-    return divisors
+            print(i)
 
 # Example usage:
 number = int(input())
-print(f"{find_divisors(number)}")
+print_divisors(number)
